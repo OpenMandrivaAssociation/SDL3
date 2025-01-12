@@ -19,7 +19,7 @@ License:	Zlib
 Group:		System/Libraries
 Url:		https://www.libsdl.org/
 Source0:	https://github.com/libsdl-org/SDL/releases/download/preview-%{version}/SDL3-%{version}.tar.gz
-Patch1:		SDL2-2.0.3-cmake-joystick.patch
+#Patch1:		SDL2-2.0.3-cmake-joystick.patch
 %ifnarch %{riscv}
 BuildRequires:	nas-devel
 %endif
