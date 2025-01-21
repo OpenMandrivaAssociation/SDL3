@@ -128,7 +128,7 @@ This package contains the headers that programmers will need to develop
 applications which will use %{name}.
 
 %files -n %{devname}
-%doc README-SDL.txt BUGS.txt WhatsNew.txt
+%doc BUGS.txt WhatsNew.txt
 %{_libdir}/pkgconfig/sdl3.pc
 %{_libdir}/libSDL3.so
 %{_libdir}/libSDL3_test.a
