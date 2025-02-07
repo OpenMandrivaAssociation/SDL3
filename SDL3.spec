@@ -13,7 +13,7 @@
 
 Summary:	Simple DirectMedia Layer
 Name:		SDL3
-Version:	3.2.2
+Version:	3.2.4
 Release:	1
 License:	Zlib
 Group:		System/Libraries
