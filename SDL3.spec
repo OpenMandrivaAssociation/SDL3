@@ -13,12 +13,12 @@
 
 Summary:	Simple DirectMedia Layer
 Name:		SDL3
-Version:	3.2.4
+Version:	3.2.6
 Release:	1
 License:	Zlib
 Group:		System/Libraries
 Url:		https://www.libsdl.org/
-Source0:	https://github.com/libsdl-org/SDL/releases/download/preview-%{version}/SDL3-%{version}.tar.gz
+Source0:	https://github.com/libsdl-org/SDL/releases/download/%{version}/SDL3-%{version}.tar.gz
 #Patch1:		SDL2-2.0.3-cmake-joystick.patch
 %ifnarch %{riscv}
 BuildRequires:	nas-devel
