@@ -13,7 +13,7 @@
 
 Summary:	Simple DirectMedia Layer
 Name:		SDL3
-Version:	3.2.28
+Version:	3.4.0
 Release:	1
 License:	Zlib
 Group:		System/Libraries
@@ -48,6 +48,7 @@ BuildRequires:	pkgconfig(xinerama)
 BuildRequires:	pkgconfig(xrandr)
 BuildRequires:	pkgconfig(xscrnsaver)
 BuildRequires:	pkgconfig(xxf86vm)
+BuildRequires:	pkgconfig(xtst)
 BuildRequires:	pkgconfig(zlib)
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libpulse-simple)
@@ -82,6 +83,7 @@ BuildRequires:	devel(libXinerama)
 BuildRequires:	devel(libXrandr)
 BuildRequires:	devel(libXss)
 BuildRequires:	devel(libXxf86vm)
+BuildRequires:	devel(libXtst)
 BuildRequires:	devel(libz)
 BuildRequires:	devel(libsystemd)
 BuildRequires:	devel(libpulse-simple)
