@@ -1,3 +1,5 @@
+%global __requires_exclude ^cmake\\((sdl3-static|SDL3-static|sdl3_test|SDL3_test)\\)$
+
 # SDL2 is used by wine
 %ifarch %{x86_64}
 %bcond_without compat32
